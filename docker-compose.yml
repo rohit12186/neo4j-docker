@@ -7,7 +7,7 @@ services:
         - /$HOME/neo4j/data:/data
         - /$HOME/neo4j/plugin:/plugins
     environment:
-        - NEO4J_AUTH_FILE=/run/secrets/neo4j_auth_file
+        - NEO4J_AUTH=neo4j/Passc0de
     ports:
       - "7474:7474"
       - "7687:7687"
